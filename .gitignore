@@ -1,0 +1,27 @@
+# Ignore all root-level files and folders unless explicitly included.
+/*
+
+# Repository documentation and ignore rules.
+!/.gitignore
+!/README.md
+
+# Main script: change this if the attached script has another filename.
+!/Figures_final.m
+
+# Direct MATLAB dependencies.
+!/simr.m
+!/simrc.m
+!/pr.m
+!/get_W_oneblock.m
+!/get_W_twoblocks.m
+!/computepdf.m
+!/computepdf_eps.m
+!/computepdf_eps2.m
+!/computepdf_eps_Gs.m
+!/computepdf_eps_rates.m
+!/computepdf_topleft.m
+
+# Required plotting data.
+!/axes_position.mat
+
+
