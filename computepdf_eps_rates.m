@@ -11,15 +11,6 @@ function p = computepdf_eps_rates(x, rate1, rate2, g, eps)
 
 l = length(x);
 
-% G1234 = zeros(4, l);
-% x0 = [-0.1*1i, -0.1*1i, -0.1*1i, -0.1*1i];
-% 
-% for i = 2:l
-%     G1234(:,i) = fsolve(@(G) cauchyeq(x(i), rate1, rate2, g, eps, G), x0,...
-%                   optimoptions('fsolve','Display','off'));
-% end
-% G = (G1234(1,:)+G1234(2,:)+G1234(3,:)+G1234(4,:))/4;
-
 G12 = zeros(2, l);
 x0 = [-0.1*1i, -0.1*1i];
 

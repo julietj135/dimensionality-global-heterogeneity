@@ -1,4 +1,4 @@
-%% THIS SCRIPT CREATES FIGURES IN "
+%% THIS SCRIPT CREATES FIGURES IN Operator-valued free probability applied to recurrent neural networks with heterogeneity in local and global circuit structures
 % Juliet Jiang
 
 set(groot, 'defaultAxesFontName', 'Arial');
@@ -256,7 +256,7 @@ legend boxoff;
 set(gcf,'position',[100,100,400,400])
 
 %% Figure 6c and 6d (left panel). Statistics of the covariance eigenvalue spectrum with within-area structure
-% Also Figure S1a. Statistics with within-area structure without conserved variance
+% Also Figure S2a. Statistics with within-area structure without conserved variance
 
 rng(42)
 
@@ -491,7 +491,7 @@ legend boxoff;
 set(gcf,'position',[100,100,400,400])
 
 %% Figure 7c and 7d (left panel). Statistics of the covariance eigenvalue spectrum with between-area structure
-% Also Figure S1b. Statistics with between-area structure without conserved variance
+% Also Figure S2b. Statistics with between-area structure without conserved variance
 
 rng(42)
 N0 = 1000;
@@ -1109,7 +1109,7 @@ set(gcf,'position',[100,100,350,400])
 box off;
 legend box off;
 
-%% Figure S2. Eigenvalue distributions of W across different types of variance structures
+%% Figure S1. Eigenvalue distributions of W across different types of variance structures
 
 rng(42)
 
